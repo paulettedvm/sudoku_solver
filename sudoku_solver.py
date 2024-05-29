@@ -1,5 +1,7 @@
 # using backtracking search to find sudoku solutions
-# example input sudoku board
+# here we use an example input, but what if we had a GUI?
+# or something that can solve print puzzles from just a picture?
+
 board = [
     [7,8,0,4,0,0,1,2,0],
     [6,0,0,0,7,5,0,0,9],
@@ -75,28 +77,15 @@ def solve(board):
 
     return False
 
-def print_board(bo):
-    for i in range(len(bo)):
-        if i % 3 == 0 and i != 0:
-            print("- - - - - - - - - - - - - ")
-
-        for j in range(len(bo[0])):
-            if j % 3 == 0 and j != 0:
-                print(" | ", end="")
-
-            if j == 8:
-                print(bo[i][j])
-            else:
-                print(str(bo[i][j]) + " ", end="")
  
 print("Sample Board:")
-print_board(board)
+print(board)
 
 solve(board)
 
 print(" ")
 print("Solved Board: ")
-print_board(board)
+print(board)
 
 
 

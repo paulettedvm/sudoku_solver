@@ -4,15 +4,15 @@ A Sudoku solver implemented using the **backtracking search** algorithm. This pr
 
 ## Features
 
-- Solves any valid 9x9 Sudoku puzzle
-- Implements a backtracking search algorithm for solution
-- Handles partially filled puzzles
+- Solves any valid 9x9 Sudoku puzzle.
+- Implements a backtracking search algorithm for solution.
+- Handles partially filled puzzles.
 
 ## Usage
 
 ### Prerequisites
 
-Ensure you have Python installed (version 3.x recommended).
+Make sure you have Python installed (version 3.x recommended).
 
 ### Running the Solver
 
@@ -32,14 +32,14 @@ Ensure you have Python installed (version 3.x recommended).
 ### Example Input
 
 ```python
-[5, 3, 0, 0, 7, 0, 0, 0, 0],
-[6, 0, 0, 1, 9, 5, 0, 0, 0],
-[0, 9, 8, 0, 0, 0, 0, 6, 0],
-[8, 0, 0, 0, 6, 0, 0, 0, 3],
-[4, 0, 0, 8, 0, 3, 0, 0, 1],
-[7, 0, 0, 0, 2, 0, 0, 0, 6],
-[0, 6, 0, 0, 0, 0, 2, 8, 0],
-[0, 0, 0, 4, 1, 9, 0, 0, 5],
+[5, 3, 0, 0, 7, 0, 0, 0, 0]
+[6, 0, 0, 1, 9, 5, 0, 0, 0]
+[0, 9, 8, 0, 0, 0, 0, 6, 0]
+[8, 0, 0, 0, 6, 0, 0, 0, 3]
+[4, 0, 0, 8, 0, 3, 0, 0, 1]
+[7, 0, 0, 0, 2, 0, 0, 0, 6]
+[0, 6, 0, 0, 0, 0, 2, 8, 0]
+[0, 0, 0, 4, 1, 9, 0, 0, 5]
 [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ```
 

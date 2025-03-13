@@ -1,24 +1,12 @@
 # Sudoku Solver
 
-A Sudoku solver implemented using the **backtracking search** algorithm. This project solves standard 9x9 Sudoku puzzles efficiently by filling in the empty cells through recursive backtracking.
+A Sudoku solver implemented using the **backtracking search** algorithm. This project solves standard 9x9 Sudoku puzzles efficiently by filling in the empty cells through backtracking search.
 
 ## Features
 
 - Solves any valid 9x9 Sudoku puzzle
 - Implements a backtracking search algorithm for solution
 - Handles partially filled puzzles
-- Validates puzzle input for correctness
-
-## How It Works
-
-1. **Input:** The solver accepts a 9x9 grid, where empty cells are represented by `0`.
-2. **Backtracking Algorithm:**
-   - Find the first empty cell.
-   - Try placing digits (1-9) sequentially.
-   - Check if the placement is valid (no duplicates in row, column, or 3x3 subgrid).
-   - Recursively attempt to solve the rest of the grid.
-   - If a conflict arises, backtrack to the previous step and try the next digit.
-3. **Output:** The solver returns the completed grid if a solution exists.
 
 ## Usage
 
@@ -78,18 +66,4 @@ puzzle = [
 ├── sudoku_solver.py      # Main solver script
 └── README.md             # Project documentation
 ```
-
-## Algorithm Explanation
-
-The solver uses **backtracking**:
-
-1. Identify an empty cell.
-2. Attempt to place numbers 1-9 in the cell.
-3. Validate the placement.
-4. If valid, recurse to the next empty cell.
-5. If invalid or no solution is found, backtrack and try the next number.
-
-## Acknowledgments
-
-Inspired by classic Sudoku-solving techniques and algorithmic problem-solving strategies.
 
